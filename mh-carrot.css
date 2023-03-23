@@ -1,0 +1,8 @@
+.mh-main-hot-contents .mh-main-hot-contents-title {
+  display: flex;
+  justify-items: center;
+}
+
+.mh-card-photo {
+  border-radius: 10px;
+}
