@@ -10,6 +10,7 @@
   justify-content: center;
   padding-top: 24px;
   height: 760px;
+  width: 100%;
   /*position: relative;*/
   background-color: #fbf7f2;
 }
@@ -123,6 +124,7 @@
   justify-content: center;
   background-color: rgb(230, 243, 230);
   position: relative;
+  width: 100%;
   padding-bottom: 60px;
 }
 
