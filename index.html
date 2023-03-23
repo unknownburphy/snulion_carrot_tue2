@@ -4,22 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./DM.css" />
+    <title>당신 근처의 당근마켓</title>
   </head>
 
   <body>
     <header>
-      <div>
-        <img />
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-      </div>
-      <div>
-        <input />
-        <button></button>
+      <div class="DM-header-div">
+        <a class="DM-header-logo" href="#"
+          ><img src="./images/logo.JPG" class="DM-carrot-logo"
+        /></a>
+        <nav class="DM-header-nav">
+          <ul class="DM-header-nav-ul">
+            <li class="DM-header-nav-list">
+              <a
+                class="DM-header-nav-list-anchor"
+                id="header-list-orange"
+                href="#"
+                >중고거래</a
+              >
+            </li>
+            <li class="DM-header-nav-list">
+              <a class="DM-header-nav-list-anchor" href="#">동네가게</a>
+            </li>
+            <li class="DM-header-nav-list">
+              <a class="DM-header-nav-list-anchor" href="#">알바</a>
+            </li>
+            <li class="DM-header-nav-list">
+              <a class="DM-header-nav-list-anchor" href="#">부동산 직거래</a>
+            </li>
+            <li class="DM-header-nav-list">
+              <a class="DM-header-nav-list-anchor" href="#">중고차 직거래</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="DM-header-search-div">
+          <span>
+            <form class="DM-header-search-form">
+              <input
+                class="DM-header-search-input"
+                type="search"
+                placeholder="물품이나 동네를 검색해보세요"
+              />
+            </form>
+          </span>
+          <span
+            ><button type="button" class="DM-header-search-button">
+              채팅하기
+            </button></span
+          >
+        </div>
       </div>
     </header>
 
@@ -200,27 +234,119 @@
     </main>
 
     <footer>
-      <section>
-        <div>
-          <ul></ul>
-          <ul></ul>
-          <ul></ul>
-        </div>
-        <div>
-          <p></p>
-          <div>
-            <img />
-            <img />
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <section></section>
-        <section>
-          <img />
+      <div class="DM-footer-div">
+        <section class="DM-footer-first-section">
+          <nav class="DM-footer-nav">
+            <ul>
+              <li class="DM-footer-nav-list">
+                <a class="DM-footer-nav-anchor" href="#">중고거래</a>
+              </li>
+              <li class="DM-footer-nav-list">
+                <a class="DM-footer-nav-anchor" href="#">동네가게</a>
+              </li>
+              <li class="DM-footer-nav-list">
+                <a class="DM-footer-nav-anchor" href="#">당근알바</a>
+              </li>
+              <li class="DM-footer-nav-list">
+                <a class="DM-footer-nav-anchor" href="#">부동산 직거래</a>
+              </li>
+              <li class="DM-footer-nav-list">
+                <a class="DM-footer-nav-anchor" href="#">중고차 직거래</a>
+              </li>
+            </ul>
+            <ul>
+              <li class="DM-footer-nav-list">
+                <a class="DM-footer-nav-anchor" href="#">당근비즈니스</a>
+              </li>
+              <li class="DM-footer-nav-list">
+                <a class="DM-footer-nav-anchor" href="#">채팅하기</a>
+              </li>
+            </ul>
+            <ul>
+              <li class="DM-footer-nav-list">
+                <a class="DM-footer-nav-anchor" href="#">자주 묻는 질문</a>
+              </li>
+              <li class="DM-footer-nav-list">
+                <a class="DM-footer-nav-anchor" href="#">회사 소개</a>
+              </li>
+              <li class="DM-footer-nav-list">
+                <a class="DM-footer-nav-anchor" href="#">인재 채용</a>
+              </li>
+            </ul>
+          </nav>
+          <section class="DM-footer-app-section">
+            <p>당근마켓 앱 다운로드</p>
+            <div class="DM-footer-app-div">
+              <a class="DM-footer-app-anchor" href="#">
+                <img
+                  class="DM-footer-app logo"
+                  src="./images/apple-logo-icon.png"
+                />
+                <span>App Store</span>
+              </a>
+              <a class="DM-footer-app-anchor" href="#">
+                <img
+                  class="DM-footer-app logo"
+                  src="./images/google-play-icon.png"
+                />
+                <span>Google Play</span>
+              </a>
+            </div>
+          </section>
         </section>
-      </section>
+
+        <section class="DM-footer-second-section">
+          <section class="DM-info-section">
+            <section class="DM-footer-company-info">
+              <p>
+                <b>대표</b> 김용현, 황도연 | <b>사업자번호</b> 375-87-00088
+                <br />
+                <b>직업정보제공사업 신고번호</b> 2016-서울서초-0051
+                <br />
+                <b>주소</b> 서울특별시 구로구 디지털로 30길 28, 609호
+                (당근서비스)
+                <br />
+                <b>전화</b> 1544-9796 | <b>고객문의</b> cs@daangnservice.com
+              </p>
+            </section>
+            <section class="DM-footer-inquiry-section">
+              <a class="DM-footer-inquiry" href="#">제휴 문의</a>
+              <a class="DM-footer-inquiry" href="#">광고 문의</a>
+              <a class="DM-footer-inquiry" href="#">PR 문의</a>
+              <a class="DM-footer-inquiry" href="#">IR 문의</a>
+            </section>
+            <section class="DM-footer-terms-section">
+              <a class="DM-footer-terms" href="#">이용 약관</a>
+              <a class="DM-footer-terms" href="#"><b>개인정보처리방침</b></a>
+              <a class="DM-footer-terms" href="#">위치기반서비스 이용약관</a>
+              <a class="DM-footer-terms" href="#">이용자보호 비전과 계획</a>
+            </section>
+          </section>
+          <section class="DM-footer-sns-logo-section">
+            <img
+              class="DM-footer-sns logo"
+              src="./images/facebook-logo-icon.png"
+            />
+            <img
+              class="DM-footer-sns logo"
+              src="./images/instagram-logo-icon.png"
+            />
+            <img
+              class="DM-footer-sns logo"
+              src="./images/youtube-logo-icon.png"
+            />
+            <img class="DM-footer-sns logo" src="./images/blog-logo-icon.png" />
+            <div class="DM-footer-lang-select">
+              <img
+                class="DM-footer-lang logo"
+                id="globe-icon"
+                src="./images/globe-icon.png"
+              />
+              <span>한국</span>
+            </div>
+          </section>
+        </section>
+      </div>
     </footer>
   </body>
 </html>
