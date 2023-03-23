@@ -103,6 +103,11 @@ header {
   font-weight: 600;
 }
 
+.DM-header-search-button:hover {
+  cursor: pointer;
+  background-color: #e9ecef;
+}
+
 footer {
   background-color: white;
   border-top: 1px solid #eaebee;
@@ -184,7 +189,8 @@ footer .logo {
 
 .DM-footer-app-anchor:hover {
   text-decoration: none;
-  opacity: 70%;
+  cursor: pointer;
+  background-color: #e9ecef;
 }
 
 .DM-footer-second-section {

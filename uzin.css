@@ -119,6 +119,16 @@
   text-decoration-style: solid;
 }
 
+.u-section2-button-1:hover {
+  cursor: pointer;
+  background-color: #e9ecef;
+}
+
+.u-section2-button-2:hover {
+  cursor: pointer;
+  background-color: #e9ecef;
+}
+
 .u-section3 {
   display: flex;
   justify-content: center;
@@ -251,4 +261,9 @@
   font-size: 18px;
   font-weight: 700;
   text-decoration-style: solid;
+}
+
+.u-section4-button:hover {
+  cursor: pointer;
+  background-color: #e9ecef;
 }
