@@ -1,7 +1,3 @@
-/* * {
-  border: 1px dashed gray;
-} */
-
 a {
   text-decoration: none;
   color: inherit;
@@ -66,6 +62,10 @@ header {
   font-weight: 700;
   color: #4d5159;
   font-style: normal;
+}
+
+.DM-header-nav-list-anchor:hover {
+  opacity: 70%;
 }
 
 #header-list-orange {
@@ -182,6 +182,11 @@ footer .logo {
   height: 19px;
 }
 
+.DM-footer-app-anchor:hover {
+  text-decoration: none;
+  opacity: 70%;
+}
+
 .DM-footer-second-section {
   display: flex;
   padding: 24px 0 100px 0;
@@ -226,5 +231,5 @@ footer a:hover {
   margin-right: 4px;
   width: 16px;
   height: 16px;
-  opacity: 50%;
+  opacity: 70%;
 }
