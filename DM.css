@@ -222,20 +222,35 @@ footer .logo {
 .DM-footer-sns-logo-section {
   display: flex;
   align-items: center;
+  width: 251px;
+  height: 32px;
 }
 
 .DM-footer-sns-logo-section .logo {
   margin-right: 20px;
+  opacity: 50%;
+}
+
+.DM-footer-sns-logo-section .logo:hover {
+  cursor: pointer;
+  opacity: 30%;
 }
 
 .DM-footer-lang-select {
   display: flex;
   align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.DM-footer-lang-select:hover {
+  cursor: pointer;
+  background-color: #e9ecef;
 }
 
 #globe-icon {
   margin-right: 4px;
   width: 16px;
   height: 16px;
-  opacity: 70%;
+  opacity: 50%;
 }
