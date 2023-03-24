@@ -248,6 +248,14 @@ footer .logo {
   background-color: #e9ecef;
 }
 
+.DM-footer-lang-select select {
+  background-color: transparent;
+  color: #868b94;
+  border: none;
+  padding-left: 2px;
+  cursor: pointer;
+}
+
 #globe-icon {
   margin-right: 4px;
   width: 16px;
