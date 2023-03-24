@@ -116,6 +116,15 @@ footer {
   box-sizing: border-box;
 }
 
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .logo {
+  width: 21px;
+  height: 21px;
+}
+
 .DM-footer-div {
   display: flex;
   flex-direction: column;
@@ -131,12 +140,7 @@ footer {
   border-bottom: 1px solid #eaebee;
 }
 
-footer .logo {
-  width: 24px;
-  height: 25px;
-}
-
-.DM-footer-nav {
+.DM-footer-first-section > nav {
   font-size: 14px;
   line-height: 1.4;
   display: flex;
@@ -144,14 +148,14 @@ footer .logo {
   padding-right: 40px;
 }
 
-.DM-footer-nav ul {
+.DM-footer-first-section > nav > ul {
   padding: 0;
   width: 33%;
   display: flex;
   flex-direction: column;
 }
 
-.DM-footer-nav-list {
+.DM-footer-first-section > nav > ul > li {
   list-style: none;
   margin: 16px;
 }
@@ -162,7 +166,11 @@ footer .logo {
   font-weight: 700;
 }
 
-.DM-footer-app-anchor {
+.DM-footer-app-section > div {
+  display: flex;
+}
+
+.DM-footer-app-section > div > a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -174,20 +182,16 @@ footer .logo {
   border: 0;
 }
 
-.DM-footer-app-anchor span {
+.DM-footer-app-section > div > a > span {
   padding-left: 4px;
 }
 
-.DM-footer-app-div {
-  display: flex;
-}
-
-.DM-footer-app-anchor .logo {
+.DM-footer-app-section > div > a > img {
   width: 19px;
   height: 19px;
 }
 
-.DM-footer-app-anchor:hover {
+.DM-footer-app-section > div > a:hover {
   text-decoration: none;
   cursor: pointer;
   background-color: #e9ecef;
@@ -201,10 +205,6 @@ footer .logo {
   font-size: 13px;
   line-height: 1.5;
   color: #868b94;
-}
-
-footer a:hover {
-  text-decoration: underline;
 }
 
 .DM-footer-company-info {
@@ -225,7 +225,7 @@ footer a:hover {
 }
 
 .DM-footer-sns-logo-section .logo {
-  margin-right: 16px;
+  margin-right: 20px;
 }
 
 .DM-footer-lang-select {
