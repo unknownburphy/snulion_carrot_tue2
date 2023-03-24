@@ -1,4 +1,5 @@
 # snulion_carrot_tue2
+<br>
 당근마켓 클론코딩 (유진,동민,민호,승오,상훈)
 <br>
 1. 담당 운영진: 유상훈, 한승오
@@ -12,6 +13,5 @@
 (2) 민호: 메인 중 '중고거래 인기매물'부터 구현
 <br>
 (3) 유진: 메인 중 '중고거래 인기매물' 이전까지 구현
-<br>
 <br>
 4. 구현 완료 후 배포한 사이트 링크: https://unknownburphy.github.io/snulion_carrot_tue2/
