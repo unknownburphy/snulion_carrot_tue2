@@ -219,6 +219,10 @@ footer .logo {
   margin-right: 16px;
 }
 
+.DM-footer-terms-section > #last-legal {
+  margin-right: 0px;
+}
+
 .DM-footer-sns-logo-section {
   display: flex;
   align-items: center;
@@ -227,7 +231,7 @@ footer .logo {
 }
 
 .DM-footer-sns-logo-section .logo {
-  margin-right: 20px;
+  margin-right: 18px;
   opacity: 50%;
 }
 
