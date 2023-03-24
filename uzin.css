@@ -4,22 +4,21 @@
   padding-top: 24px;
   height: 760px;
   width: 100%;
-  /*position: relative;*/
   background-color: #fbf7f2;
 }
 
 .u-section1-pic {
   display: flex;
+  margin-top: 73px;
   width: 804px;
   height: 685px;
 }
 
 .u-section1-title {
   display: block;
-
   width: 406.94px;
   height: 108px;
-  padding: 270px 0px 0px;
+  padding: 255px 0px 26px;
   margin: 0px 0px 32px;
   margin-block-end: 32px;
   letter-spacing: -0.4px;
@@ -59,8 +58,8 @@
   display: block;
   width: 406.94px;
   height: 108px;
-  padding: 270px 0px 0px;
-  margin: 0px 0px 24px;
+  padding: 200px 0px 0px;
+  margin: 25px 0px 24px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -76,6 +75,7 @@
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 16px;
   font-weight: 400;
+  margin-bottom: 35px;
 }
 
 .u-section2-buttons {
@@ -146,8 +146,8 @@
   display: block;
   width: 478px;
   height: 108px;
-  padding: 270px 0px 0px;
-  margin: 0px 0px 24px;
+  padding: 237px 0px 0px;
+  margin: 0px 0px 40px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -162,6 +162,7 @@
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 16px;
   font-weight: 400;
+  margin-bottom: 30px;
 }
 
 .u-section3-func {
@@ -222,8 +223,8 @@
 .u-section4-title {
   display: block;
   width: 478px;
-  height: 108px;
-  padding: 270px 0px 0px;
+  height: 115px;
+  padding: 230px 0px 0px;
   margin: 0px 0px 24px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
@@ -245,7 +246,7 @@
   background-color: #f1f3f5;
   color: #212529;
   border-color: #f1f3f5;
-  margin-top: 32px;
+  margin-top: 20px;
   padding: 14.5px 26px;
   border-radius: 6px;
   border-style: none;
