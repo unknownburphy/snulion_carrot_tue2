@@ -15,4 +15,3 @@
 <br>
 <br>
 4. 구현 완료 후 배포한 사이트 링크: https://unknownburphy.github.io/snulion_carrot_tue2/
-, 팀원 이름, 맡은 기능, 구현 완료 후 cloning page 캡쳐 이미지 등으로 구성
